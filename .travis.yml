@@ -1,5 +1,7 @@
 sudo: false
 
+dist: focal
+
 script:
   # This script could be run from any CI
   - bash build.sh
